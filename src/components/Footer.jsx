@@ -5,8 +5,8 @@ import { Phone, MessageCircle, Instagram, Twitter, Zap, MapPin, Clock, Heart } f
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
-  const whatsappLink = `https://wa.me/254704698002?text=${encodeURIComponent(
-    'Hello! 👋 I would like to inquire about your products.'
+  const whatsappLink = `https://wa.me/254706270921?text=${encodeURIComponent(
+    'Hello! Hello @RIOTGEAR,👋 I would like to inquire about your products.'
   )}`
 
   return (
@@ -99,14 +99,15 @@ export default function Footer() {
             <div className="space-y-4">
               {/* Phone - prominently displayed */}
               <a
-                href="tel:+254704698002"
+                href="tel:+254706270921
+                "
                 className="group flex items-center gap-3 glass border border-white/8 rounded-sm px-4 py-3 hover:border-[#39FF14]/30 transition-all duration-200"
               >
                 <Phone size={16} className="text-[#39FF14] shrink-0" />
                 <div>
                   <div className="text-[10px] text-gray-600 tracking-[0.2em] uppercase mb-0.5">Call / SMS</div>
                   <div className="text-white font-medium text-sm tracking-wide group-hover:text-[#39FF14] transition-colors">
-                    +254 704 698 002
+                    +254706270921
                   </div>
                 </div>
               </a>
