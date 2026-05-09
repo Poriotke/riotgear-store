@@ -53,7 +53,8 @@ export default function App() {
       `💰 Total: KES ${total.toLocaleString('en-KE')}\n\n` +
       `Please confirm availability and payment details. Thank you! 🙏`
     const encoded = encodeURIComponent(message)
-    window.open(`https://wa.me/254704698002?text=${encoded}`, '_blank', 'noopener,noreferrer')
+    window.open(`https://wa.me/254706270921?text=
+    ${encoded}`, '_blank', 'noopener,noreferrer')
   }, [cart])
 
   // Lock scroll when cart open
